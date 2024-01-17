@@ -1,0 +1,66 @@
+.right {
+    /* background-color: var(--primaryBG); */
+    height: 100vh;
+}
+
+.left {
+    padding: 20px 20px;
+}
+
+form label {
+    font-size: 15px;
+    font-weight: 500;
+}
+form input,
+form select,
+form textarea {
+    font-size: 16px !important;
+}
+
+.form-control:focus,
+select:focus {
+    border-color: var(--primaryBG) !important;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.075) inset,
+        0px 0px 5px var(--inputShadow) !important;
+}
+.btn-auth {
+    background-color: var(--primaryBG);
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    height: 44px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.logo {
+    margin: 40px;
+    color: var(--primaryBG);
+    font-weight: 900;
+    text-align: left;
+    font-size: 25px;
+}
+.create-txt {
+    color: rgba(0, 0, 0, 0.8);
+    margin: 20px 0;
+    font-weight: 600;
+}
+.error-prompt {
+    display: none;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: red;
+}
+.error {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: red;
+}
+.center {
+    max-width: 450px;
+    margin: 0 40px;
+}

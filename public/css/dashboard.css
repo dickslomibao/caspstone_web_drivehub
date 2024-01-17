@@ -1,0 +1,231 @@
+#services {
+    padding: 20px;
+}
+
+#services img {
+    height: 60px;
+    width: 60px;
+}
+
+
+.cont {
+
+    background-color: #dfdede;
+    height: auto;
+    width: auto;
+    padding-bottom: 40px;
+
+}
+
+
+
+
+#box1 {
+    border-radius: 10px;
+}
+
+
+
+#box0 {
+    border-radius: 10px;
+    background-color: rgba(84, 94, 225, 0.65);
+}
+
+
+#box2 {
+    border-radius: 10px;
+    background-color: rgba(247, 111, 2, 0.65);
+}
+
+#box3 {
+    border-radius: 10px;
+    background-color: rgba(0, 128, 0, 0.65);
+}
+
+#box4 {
+    border-radius: 10px;
+    background-color: rgba(84, 94, 225, 0.25);
+}
+
+#box5 {
+    border-radius: 10px;
+    background-color: rgba(247, 111, 2, 0.25);
+    /* background-color: rgba(99, 99, 128, 0.75); */
+}
+
+#box6 {
+    border-radius: 10px;
+    background-color: rgba(0, 128, 0, 0.25);
+    /* background-color: rgba(57, 57, 78, 0.75);						  */
+}
+
+
+
+#userr {
+    font-size: 40px;
+    margin-left: 5%;
+    color: #0e417c;
+}
+
+#userr1 {
+    font-size: 40px;
+    margin-left: 5%;
+    color: #994040;
+}
+
+#userr2 {
+    font-size: 40px;
+    margin-left: 5%;
+    color: #145931;
+}
+
+
+#window_service {
+    border: 1px solid #c0bdbd;
+    padding: 20px;
+    box-shadow: 5px 10px #c0bdbd;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#window {
+    font-size: 35px;
+    color: #3579c7;
+}
+
+.posted {
+    background-color: white;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+
+#logo1 {
+    color: rgb(224, 78, 78);
+    font-size: 16px;
+}
+
+#logo2 {
+    color: rgb(121, 117, 117);
+    font-size: 16px;
+}
+
+
+#star2 {
+    color: rgb(121, 117, 117);
+    font-size: 20px;
+    margin: 2px;
+}
+
+
+#f2 {
+    color: rgb(121, 117, 117);
+    font-size: 12px;
+}
+
+.f2 {
+    color: rgb(121, 117, 117);
+    font-size: 12px;
+}
+
+.school_profile {
+    width: 120px;
+    height: 120px;
+}
+
+#cont1 {
+    border-radius: 10px;
+    background-color: rgb(238, 237, 238);
+}
+
+#star {
+    color: rgb(224, 78, 78);
+    font-size: 20px;
+    margin: 2px;
+}
+
+.btn3 {
+    background-color: transparent;
+    border: transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+#docs {
+
+    margin-bottom: 30px;
+    color: black;
+}
+
+
+#thumbnail img {
+    width: 100%;
+    height: 70%;
+    transition: transform 0.3s;
+    position: relative;
+}
+
+#thumbnail:hover img {
+
+    filter: brightness(0.5);
+    transition: opacity 0.3s;
+    /* Smooth transition effect */
+}
+
+.coursename {
+    font-size: 18px;
+    padding-top: 10px;
+    color: var(--primaryBG);
+    font-weight: bold;
+
+}
+
+.coursedesc {
+    font-size: 14px;
+}
+
+.coursedesc p {
+    padding-top: 10px;
+    font-size: 14px;
+    color: var(--secondaryBG);
+}
+
+#detailsthumbnail h5 {
+    color: var(--secondaryBG);
+}
+
+
+
+#detailsthumbnail img {
+    width: 100%;
+    height: 30%;
+    align-self: center;
+
+    transition: transform 0.3s;
+    position: relative;
+}
+
+
+
+#detailsthumbnail p {
+    text-align: justify;
+}
+
+/*******************new *****************/
+.swal-button--cancel {
+    background-color: white !important;
+    border: solid grey 3px;
+    /* Set your desired color */
+}
+
+/* Change text color on hover if needed */
+.swal-button--cancel:hover {
+    background-color: white !important;
+    color: black !important;
+    /* Set your desired text color */
+}
